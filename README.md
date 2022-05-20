@@ -2,5 +2,7 @@
 SqlSugar Models Generator by command line
 
 # Execution with command line
-`dotnet restore`
-`dotnet run -- -c "{connectionstring}" -p "{models path}" -n "models namespace"`
+```bash
+dotnet restore
+dotnet run -- -c "{connectionstring}" -p "{models path}" -n "models namespace"
+```
